@@ -18,11 +18,11 @@ function logWhisper(string){
 function sayHiToGrandma(string){
 
   if (string === uppercase) {
-    return shout();
+    return string.toUpperCase("YES, INDEED!");
   }
     
   else if (string === lowercase){
-    return whisper();
+    return string.toLowerCase("I can't hear you!");
   }
   
     else if ((string)===uppercase||(string)===lowercase){
